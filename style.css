@@ -1,0 +1,235 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(255, 196, 0);
+    text-align: center;
+}
+
+header {
+    background-color: #000000a1;
+    color: rgb(63, 38, 87);
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: rgb(153, 62, 62);
+    text-decoration: none;
+}
+
+.profile-picture {
+    width: 200px; 
+    height: auto; 
+    border-radius:10000%;    
+}
+    
+
+.project-picture {
+    width: 200px; 
+    height: auto; 
+    border: radius 1000%;; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.prototype-picture {
+    width: 200px; 
+    height: auto; 
+    border: radius 1000%;; 
+    margin-left: auto;
+    margin-right: auto;
+    
+    position: relative;
+    animation: moveLeftRight 5s infinite;
+}
+
+@keyframes moveLeftRight {
+    0% {
+        right: 0;
+        left: 0;
+        
+    }
+    30% {
+       left: 100px; 
+       right: 150px; 
+    }
+    100% {
+       right: 0; 
+       left: 5px;
+    }
+}
+
+.pokemon-picture {
+    width: 1px; 
+    height: auto;
+    position: high;
+    border: radius 1000%;; 
+}
+
+.move-Picture {
+    width: 300px; 
+    height: auto; 
+    border: radius 1000%;; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem 0;
+    
+    
+}
+
+.project {
+    border: 1px solid #e70404;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+body {
+    background-image: url('black.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; /* Adjusts the position of the background image */
+    padding: 10px; /* Optional: Add some padding to see the adjustments more clearly */ 
+    
+}
+
+header {
+    background-image: url('uni.jpg');
+    background-size: 1360px 600px; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+   
+}
+
+
+
+.link-image  {
+    width: 50px; 
+    height: 30; 
+    margin: 10px; 
+    display: block; 
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+    padding-right: auto; 
+}
+
+.GMAIL-image  {
+    width: 50px; 
+    height: 30; 
+    margin: 10px; 
+    display: block; 
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: auto;
+}
+.facebook-image  {
+    width: 50px; 
+    height: 30; 
+    margin: 10px; 
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: auto;
+}
+
+.git-image  {
+    width: 50px; 
+    height: 30; 
+    margin: 10px; 
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: auto;
+}
+a {
+    display: inline-block; 
+}
+
+.low-class  {
+    width: 50px; 
+    height: 30; 
+    margin: 10px; 
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: auto;
+}
+
+.second-class  {
+    width: 50px; 
+    height: 30; 
+    margin: 10px; 
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: auto;
+}
+
+.third-class  {
+    width: 50px; 
+    height: 30; 
+    margin: 10px; 
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: auto;
+}
+
+.fourth-class  {
+    width: 50px; 
+    height: 30; 
+    margin: 10px; 
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: auto;
+}
+
+a {
+    display: inline-block; 
+}
+
+
+.fifth-class  {
+    width: 110px; 
+    height: 110px; 
+    margin: 10px; 
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: auto;
+}
+
+
+footer {
+    background-color: #861515;
+    color: rgb(7, 3, 3);
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 10%;
+    height: 7%;
+    bottom: 0;
+}
+
+
